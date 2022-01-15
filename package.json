@@ -1,0 +1,33 @@
+{
+  "name": "DailyCart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "heroku-postbuild": "NPM_COFIG_PRODUCTION=false npm install --prefix frontend && npm run build --prefix frontend",
+    "server": "nodemon backend/server.js",
+    "gert": "nodemon backend/seeder.Script",
+    "client": "npm start --prefix frontend",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node backend/seederScript"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pranit95/ecommerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pranit95/ecommerce/issues"
+  },
+  "homepage": "https://github.com/pranit95/ecommerce#readme",
+  "dependencies": {
+    "concurrently": "^6.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15"
+  }
+}
