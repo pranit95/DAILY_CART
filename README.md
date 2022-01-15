@@ -1,7 +1,7 @@
 # DailyCart
 DailyCart is a website where user can explore daily use products and can add any of the required product into the cart. It is a responsive website for maximum screen sizes.
 
-<a href="https://dailycartpranit.herokuapp.com/" target="_blank" rel="noopener">Demo</a>
+<a href="https://dailycartpranit.herokuapp.com/" target="_blank" rel="noopener">DEMO</a>
 
 ***
 
