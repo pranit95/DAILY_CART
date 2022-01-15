@@ -65,5 +65,5 @@ Looking forward to add more new features and to make the website more dynamic.
 ## Contributor
 
 ### Pranit Jogwe
-- **Github** : https://github.com/pranit95/DailyCart
+- **Github** : https://github.com/pranit95/DAILY_CART
 - **LinkedIn** : https://www.linkedin.com/in/pranit-jogwe/
